@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F6F6F6;
+    background-image: url("https://www.seekpng.com/png/detail/318-3185028_poros-league-of-legends-png.png");
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-position: bottom;
+
+}
+
+.calculator {
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://images3.alphacoders.com/107/thumb-1920-1077817.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 3px 3px black;
+}
+
+.display-container {
+    width: 350px;
+    height: 100px;
+    margin-top: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width: 328px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+
+    box-shadow: 1px 1px black;
+}
+
+.display-num {
+    font-size: 25px;
+}
+
+.top-btn {
+    width: 350px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.on {
+    width: 50px;
+    height: 30px;
+    margin-right: 18px;
+    background-color: #F4F4F4;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 1px black;
+}
+
+.off {
+    width: 50px;
+    height: 30px;
+    margin-right: 11px;
+    background-color: #F4F4F4;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 1px black;
+}
+
+.bottom-btn {
+    width: 350px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.row1 {
+    width: 50px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 {
+    width: 50px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row3 {
+    width: 50px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row4 {
+    width: 50px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row5 {
+    width: 50px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 55px;
+    height: 50px;
+    background-color: #F4F4F4;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+    font-size: 20px;
+}
+
+.long-btn {
+    width: 50px;
+    height: 133.5px;
+    background-color: #F4F4F4;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+    font-size: 25px;
+}
